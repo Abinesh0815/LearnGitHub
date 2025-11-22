@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Redipae Mobile">
+    <listeners>
+        <listener class-name="Listeners.Redipae_Listeners"/>
+    </listeners>
+    <test name="Redipae Mobile">
+        <classes>
+            <class name="Tests.LoginTests" />
+        </classes>
+    </test>
+</suite>
