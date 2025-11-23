@@ -49,6 +49,9 @@ public class LoginTests
             
             // Click to focus the field (may trigger keyboard or prepare for input)
             username.click();
+            System.out.println("mini login");
+            System.out.println("github");
+            System.out.println("merging feature into main branch");
         } else {
             // Throw clear error if driver not ready
             throw new RuntimeException("Driver is not initialized. Cannot perform miniLogin.");
